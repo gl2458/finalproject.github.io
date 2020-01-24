@@ -5,7 +5,7 @@ output:
     orientation: columns
     source_code: embed
     runtime: shiny
-    theme: cosmo
+    theme: cerulean
 editor_options: 
   chunk_output_type: console
 ---
