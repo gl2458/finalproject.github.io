@@ -5,12 +5,13 @@ output:
     orientation: columns
     source_code: embed
     runtime: shiny
-    theme: paper
+    theme: cosmo
 editor_options: 
   chunk_output_type: console
 ---
 
 ```{r setup, include=FALSE}
+library(shinythemes)
 library(flexdashboard)
 library(tidyverse)
 library(plotly)
