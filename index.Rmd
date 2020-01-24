@@ -1,0 +1,18 @@
+---
+title: "Salary trends by gender"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+## Background
+
+Gender inequality in a society is demonstrated and perpetuated by gender pay gap. Every March, in light of Women's History month, the Bureau of Labor Statistics and the Census Bureau publish data on women's earnings and employment status for five major occupation categories. For this project, I will be using the data released in 2016. 
+
+## Data Sources
+
+The dataset contains estimated total number of full-time, year-round civillian employed 16 years and older and their median earnings. In this project, we will be comparing the number of workers between men and women as well as thier earnings. Major cateogories include 1) Management, Business, Science, and Arts Occupations, 2) Service Occupations, 3) Sales and Office Occupations, 4) Natural Resources, Construction, and Maintenance Occupations, and 5) Production, Transportation, and Material Moving Occupations. 
+
+

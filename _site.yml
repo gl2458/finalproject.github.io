@@ -1,0 +1,10 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  left:
+    - text: "Analysis"
+      href: index.html
+    - text: "Graphs"
+      href: https://gl2458.shinyapps.io/shiny/
+    
