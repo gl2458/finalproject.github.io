@@ -26,7 +26,7 @@ window.FlexDashboardComponents = [];
 </script>
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/cerulean.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
@@ -741,49 +741,17 @@ body {
 
 .section.sidebar {
   top: 51px;
-  background-color: rgba(39, 128, 227, 0.1);
-}
-
-.value-box {
-  color: #f9f9f9;
-}
-
-.bg-primary {
-  background-color: rgba(39, 128, 227, 0.7);
-}
-
-.storyboard-nav .sbframelist ul li.active {
-  background-color: rgba(39, 128, 227, 0.7);
+  background-color: rgba(3, 60, 115, 0.1);
 }
 
 .nav-tabs-custom > .nav-tabs > li.active {
-  border-top-color: rgba(39, 128, 227, 0.7);
+  border-top-color: #2fa4e7;
 }
 
-.bg-info {
-  background-color: rgba(153, 84, 187, 0.7);
+.storyboard-nav .sbframelist ul li.active {
+  background-color: rgba(47, 164, 231, 0.7);
 }
 
-.bg-warning {
-  background-color: rgba(255, 117, 24, 0.7);
-}
-
-.bg-danger {
-  background-color: rgba(255, 0, 57, 0.7);
-}
-
-.bg-success {
-  background-color: rgba(63, 182, 24, 0.7);
-}
-
-.chart-title {
-  font-weight: 500;
-}
-
-.nav-tabs-custom > .nav-tabs > li > a,
-.nav-tabs-custom > .nav-tabs > li > a:active {
-  font-weight: 500;
-}
 
 @media only screen and (min-width: 768px) {
 html, body {
@@ -2650,14 +2618,14 @@ window.FlexDashboardComponents.push({
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
-<div id="out4fa3d2bb98f9765d" style="width:100%; height:400px; " class="plotly html-widget html-widget-output shiny-report-size"></div>
+<div id="outf8d28bff7c3a266f" style="width:100%; height:400px; " class="plotly html-widget html-widget-output shiny-report-size"></div>
 </div>
 <div id="median-income-of-males-vs-females-in-each-industry" class="section level3">
 <h3>Median Income of Males vs Females in each Industry</h3>
 <div class="knitr-options" data-fig-width="576" data-fig-height="460">
 
 </div>
-<div id="out013440dabbd1c59d" style="width:100%; height:400px; " class="plotly html-widget html-widget-output shiny-report-size"></div>
+<div id="out3c131cb32a9fbc8e" style="width:100%; height:400px; " class="plotly html-widget html-widget-output shiny-report-size"></div>
 </div>
 </div>
 
@@ -2687,7 +2655,7 @@ output:
     orientation: columns
     source_code: embed
     runtime: shiny
-    theme: cosmo
+    theme: cerulean
 editor_options: 
   chunk_output_type: console
 ---
@@ -2781,7 +2749,7 @@ renderPlotly({
 <script type="text/javascript">
 $(document).ready(function () {
   FlexDashboard.init({
-    theme: "cosmo",
+    theme: "cerulean",
     fillPage: true,
     orientation: "columns",
     storyboard: false,
